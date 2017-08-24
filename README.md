@@ -16,7 +16,9 @@ Formatted document with rended UML diagrams can be viewed [here](https://stacked
 
 * Sample documentation
 * Requirements checklist
-* Examples for specifying requirements
+* Requirement specification
+
+The following section provides details for each of the requirements.
 
 # How to use this documentation
 
@@ -107,11 +109,13 @@ The following section provides a checklist of the SFMC solution documentation da
 
 Notes: not all tasks are required.
 
-# Examples for specifying requirements
+# Requirement specification
 
-The following section contains examples for how to specify Salesforce Marketing Cloud requirements.
+The following section contains examples for how to specify Salesforce Marketing Cloud requirements. This document is a work in progress. Additional sections for campaigns, journeys and logging will be added as time permits. Pull requests on topic branches are very welcome.
 
-This document is a work in progress. Additional sections for campaigns, journeys and logging will be added as time permits. 
+## A.1 External SSOT required
 
-Pull requests on topic branches are very welcome.
+`replace-with-description-of-external-data-systems`
+
+
 
