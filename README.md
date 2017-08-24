@@ -115,7 +115,10 @@ The following section contains examples for how to specify Salesforce Marketing 
 
 ## A.1 External SSOT required
 
-`replace-with-description-of-external-data-systems`
+> replace with description of external data system(s)
 
+### A.1.1 SubscriberKey and PrimaryKey relationship defined
+
+> replace with PrimaryKey to SubscriberKey relationship
 
 
