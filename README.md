@@ -62,7 +62,7 @@ SFMC SCV-->External SSOT: data export (A.6)
 The following section provides a summary of the data integration objects.
 
 | Item | Description |
-| - | - | -
+| - | - | - |
 | External SSOT | Single source of truth is used to represent data warehouse, application or Salesforce instance where customer data is stored. Where SFMC is SSOT then external SSOT is not required. |
 | SFMC Staging | Staging is used to represent data extensions that are updated from the SSOT. Staging is optional and will not be required where SSOT maps directly to SCV. |
 | SFMC SCV | Single customer view (SCV) is used to represent data extensions in SFMC that are used to store information known about the customer. |
