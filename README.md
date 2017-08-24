@@ -61,30 +61,30 @@ SFMC SCV-->External SSOT: data export (A.6)
 
 The following section provides a summary of the data integration objects.
 
-Item | Description
-- | -
-External SSOT | Single source of truth is used to represent data warehouse, application or Salesforce instance where customer data is stored. Where SFMC is SSOT then external SSOT is not required.
-SFMC Staging | Staging is used to represent data extensions that are updated from the SSOT. Staging is optional and will not be required where SSOT maps directly to SCV.
-SFMC SCV | Single customer view (SCV) is used to represent data extensions in SFMC that are used to store information known about the customer. 
-SFMC SCV (brand) | Brand specific single customer view is used to represent data extensions in SFMC that are used to store a subset of information known about the customer. Brand specific single customer view is optional and is a commonly used with business units in enterprise accounts.
-SFMC Campaigns & Applications | Used to represent various processes that interact with the customer. Includes for example cloud pages used for preference centres, campaigns used for ad-hoc sends, customer journeys and triggered sends.
+| Item | Description |
+| - | - |
+| External SSOT | Single source of truth is used to represent data warehouse, application or Salesforce instance where customer data is stored. Where SFMC is SSOT then external SSOT is not required. |
+| SFMC Staging | Staging is used to represent data extensions that are updated from the SSOT. Staging is optional and will not be required where SSOT maps directly to SCV. |
+| SFMC SCV | Single customer view (SCV) is used to represent data extensions in SFMC that are used to store information known about the customer. |
+| SFMC SCV (brand) | Brand specific single customer view is used to represent data extensions in SFMC that are used to store a subset of information known about the customer. Brand specific single customer view is optional and is a commonly used with business units in enterprise accounts. |
+| SFMC Campaigns & Applications | Used to represent various processes that interact with the customer. Includes for example cloud pages used for preference centres, campaigns used for ad-hoc sends, customer journeys and triggered sends. |
 
 ### Data Integration Interactions 
 
 The following section provides a summary of the data integration interactions.
 
- Item | Title | Description 
- - | - 
-(A.1) | Data Import | Automation used to complete ETL load function from data warehouse, Salesforce Marketing Cloud Connector or/and API used import data from SSOT to SFMC staging data extensions. 
-(A.2) | Map Stage to SCV | Automations used to upsert data from staging into single customer view data extension.
-(A.3) | Map SCV to brand specific SCV | Automations used to select a subset of customer data and project customer records into business units.
-(A.4) | Map SCV [brand] to campaigns | Automations used to map data to campaigns and journeys. Note that APIs can be used to trigger and fire events that result in data extensions updates.
-(A.5) | Map responses to SCV | Automations, activities and AMPScript that are used to update SCV with customer responses.
-(A.6) | Data export | Data file transfer and/or API that is used to update the SSOT.
+| Item | Title | Description |
+| - | - |
+| (A.1) | Data Import | Automation used to complete ETL load function from data warehouse, Salesforce Marketing Cloud Connector or/and API used import data from SSOT to SFMC staging data extensions. |
+| (A.2) | Map Stage to SCV | Automations used to upsert data from staging into single customer view data extension. |
+| (A.3) | Map SCV to brand specific SCV | Automations used to select a subset of customer data and project customer records into business units. |
+| (A.4) | Map SCV [brand] to campaigns | Automations used to map data to campaigns and journeys. Note that APIs can be used to trigger and fire events that result in data extensions updates. |
+| (A.5) | Map responses to SCV | Automations, activities and AMPScript that are used to update SCV with customer responses. |
+| (A.6) | Data export | Data file transfer and/or API that is used to update the SSOT. |
   
-### Project Data Integration Requirement
+# Requirements Checklist
 
-The following section provides a checklist of the data integration tasks.
+The following section provides a checklist of the SFMC solution documentation data integration tasks.
 
 - [ ] A.1 **External SSOT required**
 - [ ] A.1.1 SubscriberKey and PrimaryKey relationship defined
@@ -110,5 +110,7 @@ The following section provides a checklist of the data integration tasks.
 - [ ] A.6.1 Scope of SFMC data reporting defined
 - [ ] A.6.2.1 Is SFMC data reporting via file transfer
 - [ ] A.6.2.2 Is SFMC data reporting via API
+
+Notes: not all tasks are required
 
 `replace-with-description-of-project`
