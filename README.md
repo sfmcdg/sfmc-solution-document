@@ -10,7 +10,7 @@ This document is a work in progress. Additional sections for campaigns, journeys
 
 ## How to view document
 
-Formatted document with rended UML diagrams can be viewed [here](https://stackedit.io/viewer#!url=https://gist.githubusercontent.com/mattcam/c67ed65d15b0690af6dafb35d241db3a/raw/f59f220430bab4a8cf7682d660b2dbe724d8bac9/README.md)
+Formatted document with rended UML diagrams can be viewed [here](https://stackedit.io/viewer#!url=https://gist.githubusercontent.com/mattcam/c67ed65d15b0690af6dafb35d241db3a/raw/2477e59ce67bbdf2825a61661d6749f64cb98255/README.md)
 
 # How this document is organised
 
