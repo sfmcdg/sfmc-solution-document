@@ -14,21 +14,15 @@ Whilst document is work in progress it can be viewed [here](https://stackedit.io
 
 # How this document is organised
 
-[TOC]
-
-## Backlog of work in progress
+* Sample documentation
+* Requirements checklist
+* Exampe placeholders specifying requirements
 
 This document is a work in progress. Additional sections for campaigns, journeys and logging will be added as time permits. 
 
 # How to use this documentation
 
-Throughout this document the following checklists are used to list required tasks. 
-
-* Project Data Integration Requirement
-
-Documentation also contains the following placeholders which should be updated as required.
-
-* `replace-with-description-of-project`
+Copy and paste, or clone as required. If you find this document useful please star and share SFMCDG. If you can improve pull requests are welcome.
 
 # Documentation License
 
