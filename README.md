@@ -121,4 +121,39 @@ The following section contains examples for how to specify Salesforce Marketing 
 
 > replace with PrimaryKey to SubscriberKey relationship
 
+### A.1.2 SCV data extension objects defined
+
+The following section provides details describing how the SSOT is mapped to the staging and SCV DEs (data extensions).
+
+> replace with description, in the following example these items relate and provide details for items (A.1.3.1), (A.1.3.2), (A.1.4.2.1), (A.2)
+
+| SSOT | Staging DE field name | SCV DE field name | Field Type | Notes |
+| - | - | - | - | - |
+| `replace-with-SSOT-field-name` | `replace-with-staging-DE-field-name` | `replace-with-SCV-field-name` | `replace-with-staging-and-SCV-field-type` | `replace-with-field-requirements` |
+| ... | ... | ... | ... | ... |
+| ... | ... | ... | ... | ... |
+| ... | ... | ... | ... | ... |
+
+#### A.1.4.2 Data imported using Salesforce Marketing Cloud Connector
+
+> replace with Salesforce Marketing Cloud Connector considerations.
+
+### A.2.1 Are additional data transformations required on load defined
+
+> replace with any data transformations are required on load
+
+## A.5 Customer response to SCV required
+
+The following section describes how SFMC activities will update the SCV.
+
+### A.5.1 Customer response options defined
+
+> replace with scope of requirement
+
+#### A.5.1.1 Preference centre required
+
+> replace with cloud page preference centre requirement
+
+
+
 
