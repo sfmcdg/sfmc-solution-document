@@ -16,13 +16,13 @@ Whilst document is work in progress it can be viewed [here](https://stackedit.io
 
 * Sample documentation
 * Requirements checklist
-* Exampe placeholders specifying requirements
-
-This document is a work in progress. Additional sections for campaigns, journeys and logging will be added as time permits. 
+* Examples for specifying requirements
 
 # How to use this documentation
 
-Copy and paste, or clone as required. If you find this document useful please star and share SFMCDG. If you can improve pull requests are welcome.
+Copy and paste, or clone as required. If you find this document useful please star and share SFMCDG. If you can improve pull requests on topic branches are very welcome. Use issues for suggestions.
+
+Note that UML diagrams text only for now.
 
 # Documentation License
 
@@ -40,6 +40,8 @@ The purpose of this document is to describe for client stakeholders the Salesfor
 
 The following sequence diagram provides a high-level view of how external components interact with the SFMC.
 
+`insert-image-of-following-sequence-diagram-here`
+
 ```sequence
 External SSOT->SFMC Staging: data import (A.1)
 External SSOT->SFMC SCV: data import (A.1)
@@ -50,6 +52,7 @@ SFMC SCV (brand)->SFMC Campaigns & Applications: map SCV [brand] to campaigns (A
 SFMC Campaigns & Applications->SFMC SCV: map responses to SCV (A.5)
 SFMC SCV-->External SSOT: data export (A.6)
 ```
+
 
 ### Data Integration Objects
 
@@ -105,6 +108,13 @@ The following section provides a checklist of the SFMC solution documentation da
 - [ ] A.6.2.1 Is SFMC data reporting via file transfer
 - [ ] A.6.2.2 Is SFMC data reporting via API
 
-Notes: not all tasks are required
+Notes: not all tasks are required.
 
-`replace-with-description-of-project`
+# Examples for specifying requirements
+
+The following section contains examples for how to specify Salesforce Marketing Cloud requirements.
+
+This document is a work in progress. Additional sections for campaigns, journeys and logging will be added as time permits. 
+
+Pull requests on topic branches are very welcome.
+
