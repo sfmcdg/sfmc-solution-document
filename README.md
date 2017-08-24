@@ -99,6 +99,7 @@ The following section provides a checklist of the SFMC solution documentation da
 - [ ] A.4.1 Campaign data requirements defined
 - [ ] A.5 **Customer response to SCV required**
 - [ ] A.5.1 Customer response options defined
+- [ ] A.5.1.1 Customer preference centre required
 - [ ] A.6 **Data reporting to SSOT required**
 - [ ] A.6.1 Scope of SFMC data reporting defined
 - [ ] A.6.2.1 Is SFMC data reporting via file transfer
