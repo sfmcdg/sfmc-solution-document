@@ -10,7 +10,7 @@ This document is a work in progress. Additional sections for campaigns, journeys
 
 ## How to view document
 
-Whilst document is work in progress it can be viewed [here](https://stackedit.io/viewer#!url=https://gist.githubusercontent.com/mattcam/bb702d22940deb563a6b845e99d5ad15/raw/92193c9cf891232e000bb2073f2ef9f89ac014e0/README.md).
+Formatted document with rended UML diagrams can be viewed [here](https://stackedit.io/viewer#!url=https://gist.githubusercontent.com/mattcam/c67ed65d15b0690af6dafb35d241db3a/raw/f59f220430bab4a8cf7682d660b2dbe724d8bac9/README.md)
 
 # How this document is organised
 
@@ -21,8 +21,6 @@ Whilst document is work in progress it can be viewed [here](https://stackedit.io
 # How to use this documentation
 
 Copy and paste, or clone as required. If you find this document useful please star and share SFMCDG. If you can improve pull requests on topic branches are very welcome. Use issues for suggestions.
-
-Note that UML diagrams text only for now.
 
 # Documentation License
 
@@ -39,8 +37,6 @@ The purpose of this document is to describe for client stakeholders the Salesfor
 ## Data Integration Model
 
 The following sequence diagram provides a high-level view of how external components interact with the SFMC.
-
-`insert-image-of-following-sequence-diagram-here`
 
 ```sequence
 External SSOT->SFMC Staging: data import (A.1)
