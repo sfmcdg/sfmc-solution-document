@@ -14,9 +14,9 @@ Formatted document with rended UML diagrams can be viewed [here](https://stacked
 
 # How this document is organised
 
-* Sample documentation
-* Requirements checklist
-* Requirement specification
+* [Sample documentation](#sample-salesforce-marketing-cloud-solution-document)
+* [Requirements checklist](#requirements-checklist)
+* [Requirement specification](#requirement-specification)
 
 The following section provides details for each of the requirements.
 
